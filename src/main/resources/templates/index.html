@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<h1> Soldier</h1>
+<body>
+<p th:text="${name}"></p>
+<div th:text= "${age}"> </div>
+<p>Soldier name </p>
+<table>
+    <tr th:each="soldier: ${soldierList}">  <td th:text="${soldier}"/>
+
+</table>
+</body>
+</html>
